@@ -1,0 +1,1 @@
+dijoncteur_coupe = False

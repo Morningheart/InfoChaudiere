@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <title>Django Tailwind</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<!--
+		{% load static %}
+		<link rel="stylesheet" href="{% static 'map/style.css' %}">
+		-->
+	</head>
+
+	<body>
+        <script>
+            setTimeout('location.reload()', 1000)
+        </script>
+		<header>
+            <h1>Vue Principal</h1>
+		</header>
+		<div class="mapStyle">
+			<p>Dijoncteur état : {{dijoncteur}}</p>
+			<p>Température actuel : {{temperatureActuelle}}</p>
+			<p>Température choisi : {{temperatureChoisi}}</p>
+			<p>Chaudière état : {{chaudiere}}</p>
+            <p>The current time is {{now}}.</p>
+		</div>
+	</body>
+</html>
