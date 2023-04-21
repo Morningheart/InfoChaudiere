@@ -9,6 +9,8 @@ from .process.store_Temp_actuel import tempActuel
 from .process.store_Temp_choisi import tempChoisi
 from .process.chaudiere.store import chaudiereAllumee
 
+from .process.controlleur.core import controlleur
+
 
 def dijoncteurThread():
   global dijoncteur_coupe
